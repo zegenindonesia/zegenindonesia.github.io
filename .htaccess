@@ -1,0 +1,73 @@
+# BEGIN WP Hide & Security Enhancer
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase / 
+#WriteCheckString:1589663947_5503
+RewriteRule .* - [E=HTTP_MOD_REWRITE:On]
+
+RewriteRule ^layout/layout.css /wp-content/themes/madxflow/style.css [L,QSA]
+
+RewriteRule ^layout/(.+) /wp-content/themes/madxflow/$1 [L,QSA]
+
+RewriteRule ^data/(.+) /wp-content/plugins/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-content/plugins(.+) /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in.*$ [NC]
+RewriteRule ^wp-includes(.*) /index.php?wph-throw-404 [L]
+
+RewriteRule ^includes/(.+) /wp-includes/$1 [L,QSA]
+
+RewriteRule ^media/(.+) /wp-content/uploads/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-content/uploads/(.+) /index.php?wph-throw-404 [L]
+
+RewriteRule ^xmlrpcwp.php /xmlrpc.php [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-register.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-signup.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REMOTE_ADDR} !^127\.0\.0\.1$
+RewriteRule ^wp-cron.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-activate.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^readme.html /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} !wp-activate.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-cron.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-signup.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-register.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-comments-post.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-login.php [NC]
+RewriteRule ^wp-([a-z-])+.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^license.txt /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^xmlrpc.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-comments-post.php /index.php?wph-throw-404 [L]
+
+RewriteRule ^comment-input.php /wp-comments-post.php [L,QSA]
+
+RewriteRule ^content/(.+) /wp-content/$1 [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in.*$ [NC]
+RewriteRule ^wp-content(.+) /index.php?wph-throw-404 [L]
+</IfModule> 
+
+# END WP Hide & Security Enhancer
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

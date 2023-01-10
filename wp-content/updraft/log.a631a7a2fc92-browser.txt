@@ -1,0 +1,291 @@
+0000.090 (R) [notice] Looking for db archive: file name: backup_2020-07-02-1437_CV_Zegen_Utama_c5b683273dab-db.gz
+0000.091 (R) [notice] Archive is expected to be size: 671.1 KB: OK
+0000.098 (R) [notice] Looking for themes archive: file name: backup_2020-07-02-1437_CV_Zegen_Utama_c5b683273dab-themes.zip
+0000.099 (R) [notice] Archive is expected to be size: 1192.6 KB: OK
+0000.106 (R) [notice] Looking for uploads archive: file name: backup_2020-07-02-1437_CV_Zegen_Utama_c5b683273dab-uploads.zip
+0000.107 (R) [notice] Archive is expected to be size: 112319.4 KB: OK
+0000.112 (R) [notice] Looking for others archive: file name: backup_2020-07-02-1437_CV_Zegen_Utama_c5b683273dab-others.zip
+0000.114 (R) [notice] Archive is expected to be size: 32820.9 KB: OK
+0000.155 (R) [notice] Unpacking backup... (backup_2020-07-02-1437_CV_Zegen_Utama_c5b683273dab-db.gz, 0.7 Mb)
+0000.166 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.352 (R) [notice] Mengaktifkan moda perawatan&#8230;
+0001.830 (R) [notice] Backup created by: 1.16.24
+0001.831 (R) [notice] Backup of: https://zegenindonesia.id
+0001.879 (R) [notice] Content URL: https://zegenindonesia.id/wp-content
+0001.879 (R) [notice] Uploads URL: https://zegenindonesia.id/media
+0001.880 (R) [notice] Old table prefix: zgn_
+0001.880 (R) [notice] Site information: multisite = 0
+0001.884 (R) [notice] New table prefix: 7l_
+0001.956 (R) [notice] Processing table (InnoDB):  zgn_options - will restore as: 7l_options
+0004.740 (R) [notice] Atomic restore: dropping original table (zg_options)
+0004.960 (R) [notice] Atomic restore: renaming new table (7l_options) to final table name (zg_options)
+0016.868 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0017.250 (R) [notice] Search and replacing table: zg_options: rows: 1165
+0017.725 (R) [notice] Processing table (InnoDB):  zgn_users - will restore as: 7l_users
+0018.616 (R) [notice] Atomic restore: dropping original table (zg_users)
+0018.913 (R) [notice] Atomic restore: renaming new table (7l_users) to final table name (zg_users)
+0019.100 (R) [notice] Search and replacing table: zg_users: rows: 2
+0019.102 (R) [notice] Processing table (InnoDB):  zgn_usermeta - will restore as: 7l_usermeta
+0020.481 (R) [notice] Atomic restore: dropping original table (zg_usermeta)
+0020.761 (R) [notice] Atomic restore: renaming new table (7l_usermeta) to final table name (zg_usermeta)
+0021.146 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0021.165 (R) [notice] Search and replacing table: zg_usermeta: rows: 49
+0021.181 (R) [notice] Processing table (InnoDB):  zgn_commentmeta - will restore as: 7l_commentmeta
+0021.797 (R) [notice] Atomic restore: dropping original table (zg_commentmeta)
+0022.069 (R) [notice] Atomic restore: renaming new table (7l_commentmeta) to final table name (zg_commentmeta)
+0022.358 (R) [notice] Search and replacing table: zg_commentmeta: rows: 0
+0022.359 (R) [notice] Processing table (InnoDB):  zgn_comments - will restore as: 7l_comments
+0023.903 (R) [notice] Atomic restore: dropping original table (zg_comments)
+0024.027 (R) [notice] Atomic restore: renaming new table (7l_comments) to final table name (zg_comments)
+0024.170 (R) [notice] Search and replacing table: zg_comments: rows: 6
+0024.174 (R) [notice] Processing table (InnoDB):  zgn_links - will restore as: 7l_links
+0024.392 (R) [notice] Atomic restore: dropping original table (zg_links)
+0024.508 (R) [notice] Atomic restore: renaming new table (7l_links) to final table name (zg_links)
+0024.841 (R) [notice] Search and replacing table: zg_links: rows: 0
+0024.842 (R) [notice] Processing table (InnoDB):  zgn_postmeta - will restore as: 7l_postmeta
+0033.532 (R) [notice] Atomic restore: dropping original table (zg_postmeta)
+0033.747 (R) [notice] Atomic restore: renaming new table (7l_postmeta) to final table name (zg_postmeta)
+0034.461 (R) [notice] Search and replacing table: zg_postmeta: rows: 39
+0036.573 (R) [notice] Processing table (InnoDB):  zgn_posts - will restore as: 7l_posts
+0039.724 (R) [notice] Atomic restore: dropping original table (zg_posts)
+0039.835 (R) [notice] Atomic restore: renaming new table (7l_posts) to final table name (zg_posts)
+0039.971 (R) [notice] Search and replacing table: zg_posts: rows: 636
+0040.080 (R) [notice] Processing table (InnoDB):  zgn_term_relationships - will restore as: 7l_term_relationships
+0041.071 (R) [notice] Database queries processed: 50 in 40.88 seconds
+0041.075 (R) [notice] Atomic restore: dropping original table (zg_term_relationships)
+0042.152 (R) [notice] Atomic restore: renaming new table (7l_term_relationships) to final table name (zg_term_relationships)
+0042.419 (R) [notice] Skipping this table: data in this table (zg_term_relationships) should not be search/replaced
+0042.419 (R) [notice] Processing table (InnoDB):  zgn_term_taxonomy - will restore as: 7l_term_taxonomy
+0042.724 (R) [notice] Atomic restore: dropping original table (zg_term_taxonomy)
+0042.848 (R) [notice] Atomic restore: renaming new table (7l_term_taxonomy) to final table name (zg_term_taxonomy)
+0043.145 (R) [notice] Search and replacing table: zg_term_taxonomy: rows: 297
+0043.187 (R) [notice] Processing table (InnoDB):  zgn_termmeta - will restore as: 7l_termmeta
+0044.716 (R) [notice] Atomic restore: dropping original table (zg_termmeta)
+0044.883 (R) [notice] Atomic restore: renaming new table (7l_termmeta) to final table name (zg_termmeta)
+0045.147 (R) [notice] Search and replacing table: zg_termmeta: rows: 209
+0045.157 (R) [notice] Processing table (InnoDB):  zgn_terms - will restore as: 7l_terms
+0046.069 (R) [notice] Atomic restore: dropping original table (zg_terms)
+0046.195 (R) [notice] Atomic restore: renaming new table (7l_terms) to final table name (zg_terms)
+0046.330 (R) [notice] Search and replacing table: zg_terms: rows: 297
+0046.357 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_order_itemmeta - will restore as: 7l_woocommerce_order_itemmeta
+0046.684 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_order_itemmeta)
+0046.686 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_order_itemmeta) to final table name (zg_woocommerce_order_itemmeta)
+0047.054 (R) [notice] Search and replacing table: zg_woocommerce_order_itemmeta: rows: 0
+0047.056 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_payment_tokenmeta - will restore as: 7l_woocommerce_payment_tokenmeta
+0048.678 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_payment_tokenmeta)
+0048.684 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_payment_tokenmeta) to final table name (zg_woocommerce_payment_tokenmeta)
+0049.823 (R) [notice] Search and replacing table: zg_woocommerce_payment_tokenmeta: rows: 0
+0049.824 (R) [notice] Processing table (MyISAM):  zgn_aiowps_events - will restore as: 7l_aiowps_events
+0050.054 (R) [notice] Atomic restore: dropping original table (zg_aiowps_events)
+0050.057 (R) [notice] Atomic restore: renaming new table (7l_aiowps_events) to final table name (zg_aiowps_events)
+0050.097 (R) [notice] Search and replacing table: zg_aiowps_events: rows: 0
+0050.098 (R) [notice] Processing table (MyISAM):  zgn_aiowps_failed_logins - will restore as: 7l_aiowps_failed_logins
+0050.101 (R) [notice] An error (1) occurred: - Invalid default value for 'failed_login_date' - the database query being run was: CREATE TABLE `7l_aiowps_failed_logins` (  `id` bigint(20) NOT NULL AUTO_INCREMENT,  `user_id` bigint ...
+0050.130 (R) [notice] An error (2) occurred: - Table 'zegen.7l_aiowps_failed_logins' doesn't exist - the database query being run was: INSERT INTO `7l_aiowps_failed_logins` VALUES (1, 1, 'admin', '2019-05-12 16:26:05', '18.204.195.19') ...
+0050.147 (R) [notice] An error (3) occurred: - Table 'zegen.7l_aiowps_failed_logins' doesn't exist - the database query being run was: INSERT INTO `7l_aiowps_failed_logins` VALUES (1001, 0, 'admin', '2020-01-08 06:04:55', '162.158.106. ...
+0050.159 (R) [notice] An error (4) occurred: - Table 'zegen.7l_aiowps_failed_logins' doesn't exist - the database query being run was: INSERT INTO `7l_aiowps_failed_logins` VALUES (2001, 0, 'admin', '2020-01-10 19:18:10', '141.101.69.7 ...
+0050.201 (R) [notice] Atomic restore: dropping original table (zg_aiowps_failed_logins)
+0050.202 (R) [notice] Atomic restore: renaming new table (7l_aiowps_failed_logins) to final table name (zg_aiowps_failed_logins)
+0050.203 (R) [notice] An error (5) occurred: - Table 'zegen.7l_aiowps_failed_logins' doesn't exist - the database query being run was: ALTER TABLE `7l_aiowps_failed_logins` RENAME TO `zg_aiowps_failed_logins`;
+0050.210 (R) [notice] Search and replacing table: zg_aiowps_failed_logins: rows: 0
+0050.211 (R) [notice] Processing table (MyISAM):  zgn_aiowps_global_meta - will restore as: 7l_aiowps_global_meta
+0050.287 (R) [notice] Atomic restore: dropping original table (zg_aiowps_global_meta)
+0050.287 (R) [notice] Atomic restore: renaming new table (7l_aiowps_global_meta) to final table name (zg_aiowps_global_meta)
+0050.296 (R) [notice] Search and replacing table: zg_aiowps_global_meta: rows: 0
+0050.297 (R) [notice] Processing table (MyISAM):  zgn_aiowps_login_activity - will restore as: 7l_aiowps_login_activity
+0050.298 (R) [notice] An error (6) occurred: - Invalid default value for 'login_date' - the database query being run was: CREATE TABLE `7l_aiowps_login_activity` (  `id` bigint(20) NOT NULL AUTO_INCREMENT,  `user_id` bigin ...
+0050.301 (R) [notice] An error (7) occurred: - Table 'zegen.7l_aiowps_login_activity' doesn't exist - the database query being run was: INSERT INTO `7l_aiowps_login_activity` VALUES (1, 1, 'admin', '2019-04-15 18:46:16', '2019-04-22 09: ...
+0050.365 (R) [notice] Atomic restore: dropping original table (zg_aiowps_login_activity)
+0050.369 (R) [notice] Atomic restore: renaming new table (7l_aiowps_login_activity) to final table name (zg_aiowps_login_activity)
+0050.372 (R) [notice] An error (8) occurred: - Table 'zegen.7l_aiowps_login_activity' doesn't exist - the database query being run was: ALTER TABLE `7l_aiowps_login_activity` RENAME TO `zg_aiowps_login_activity`;
+0050.393 (R) [notice] Search and replacing table: zg_aiowps_login_activity: rows: 0
+0050.395 (R) [notice] Processing table (MyISAM):  zgn_aiowps_login_lockdown - will restore as: 7l_aiowps_login_lockdown
+0050.479 (R) [notice] Atomic restore: dropping original table (zg_aiowps_login_lockdown)
+0050.480 (R) [notice] Atomic restore: renaming new table (7l_aiowps_login_lockdown) to final table name (zg_aiowps_login_lockdown)
+0050.498 (R) [notice] Search and replacing table: zg_aiowps_login_lockdown: rows: 0
+0050.499 (R) [notice] Processing table (MyISAM):  zgn_aiowps_permanent_block - will restore as: 7l_aiowps_permanent_block
+0050.603 (R) [notice] Atomic restore: dropping original table (zg_aiowps_permanent_block)
+0050.605 (R) [notice] Atomic restore: renaming new table (7l_aiowps_permanent_block) to final table name (zg_aiowps_permanent_block)
+0050.638 (R) [notice] Search and replacing table: zg_aiowps_permanent_block: rows: 0
+0050.640 (R) [notice] Processing table (MyISAM):  zgn_hmwp_blocked_ips - will restore as: 7l_hmwp_blocked_ips
+0050.721 (R) [notice] Atomic restore: dropping original table (zg_hmwp_blocked_ips)
+0050.722 (R) [notice] Atomic restore: renaming new table (7l_hmwp_blocked_ips) to final table name (zg_hmwp_blocked_ips)
+0050.748 (R) [notice] Search and replacing table: zg_hmwp_blocked_ips: rows: 0
+0050.749 (R) [notice] Processing table (MyISAM):  zgn_hmwp_ms_intrusions - will restore as: 7l_hmwp_ms_intrusions
+0050.957 (R) [notice] Atomic restore: dropping original table (zg_hmwp_ms_intrusions)
+0050.960 (R) [notice] Atomic restore: renaming new table (7l_hmwp_ms_intrusions) to final table name (zg_hmwp_ms_intrusions)
+0050.992 (R) [notice] Search and replacing table: zg_hmwp_ms_intrusions: rows: 0
+0050.993 (R) [notice] Processing table (MyISAM):  zgn_jet_post_types - will restore as: 7l_jet_post_types
+0051.148 (R) [notice] Atomic restore: dropping original table (zg_jet_post_types)
+0051.149 (R) [notice] Atomic restore: renaming new table (7l_jet_post_types) to final table name (zg_jet_post_types)
+0051.177 (R) [notice] Search and replacing table: zg_jet_post_types: rows: 0
+0051.177 (R) [notice] Processing table (MyISAM):  zgn_jet_taxonomies - will restore as: 7l_jet_taxonomies
+0051.253 (R) [notice] Atomic restore: dropping original table (zg_jet_taxonomies)
+0051.254 (R) [notice] Atomic restore: renaming new table (7l_jet_taxonomies) to final table name (zg_jet_taxonomies)
+0051.265 (R) [notice] Search and replacing table: zg_jet_taxonomies: rows: 0
+0051.266 (R) [notice] Processing table (MyISAM):  zgn_madx_post_types - will restore as: 7l_madx_post_types
+0051.351 (R) [notice] Atomic restore: dropping original table (zg_madx_post_types)
+0051.354 (R) [notice] Atomic restore: renaming new table (7l_madx_post_types) to final table name (zg_madx_post_types)
+0051.375 (R) [notice] Search and replacing table: zg_madx_post_types: rows: 0
+0051.376 (R) [notice] Processing table (MyISAM):  zgn_madx_taxonomies - will restore as: 7l_madx_taxonomies
+0051.446 (R) [notice] Atomic restore: dropping original table (zg_madx_taxonomies)
+0051.448 (R) [notice] Atomic restore: renaming new table (7l_madx_taxonomies) to final table name (zg_madx_taxonomies)
+0051.464 (R) [notice] Search and replacing table: zg_madx_taxonomies: rows: 0
+0051.465 (R) [notice] Processing table (InnoDB):  zgn_podsrel - will restore as: 7l_podsrel
+0051.854 (R) [notice] Atomic restore: dropping original table (zg_podsrel)
+0051.856 (R) [notice] Atomic restore: renaming new table (7l_podsrel) to final table name (zg_podsrel)
+0052.383 (R) [notice] Search and replacing table: zg_podsrel: rows: 0
+0052.384 (R) [notice] Processing table (MyISAM):  zgn_taxonomyfield - will restore as: 7l_taxonomyfield
+0053.004 (R) [notice] Atomic restore: dropping original table (zg_taxonomyfield)
+0053.008 (R) [notice] Atomic restore: renaming new table (7l_taxonomyfield) to final table name (zg_taxonomyfield)
+0053.042 (R) [notice] Search and replacing table: zg_taxonomyfield: rows: 0
+0053.042 (R) [notice] Processing table (MyISAM):  zgn_taxonomymeta - will restore as: 7l_taxonomymeta
+0053.104 (R) [notice] Atomic restore: dropping original table (zg_taxonomymeta)
+0053.106 (R) [notice] Atomic restore: renaming new table (7l_taxonomymeta) to final table name (zg_taxonomymeta)
+0053.126 (R) [notice] Search and replacing table: zg_taxonomymeta: rows: 0
+0053.127 (R) [notice] Processing table (MyISAM):  zgn_tm_taskmeta - will restore as: 7l_tm_taskmeta
+0053.200 (R) [notice] Database queries processed: 100 in 53.01 seconds
+0053.202 (R) [notice] Atomic restore: dropping original table (zg_tm_taskmeta)
+0053.204 (R) [notice] Atomic restore: renaming new table (7l_tm_taskmeta) to final table name (zg_tm_taskmeta)
+0053.224 (R) [notice] Search and replacing table: zg_tm_taskmeta: rows: 1
+0053.226 (R) [notice] Processing table (MyISAM):  zgn_tm_tasks - will restore as: 7l_tm_tasks
+0053.286 (R) [notice] Atomic restore: dropping original table (zg_tm_tasks)
+0053.287 (R) [notice] Atomic restore: renaming new table (7l_tm_tasks) to final table name (zg_tm_tasks)
+0053.297 (R) [notice] Search and replacing table: zg_tm_tasks: rows: 1
+0053.298 (R) [notice] Processing table (InnoDB):  zgn_toolset_post_guid_id - will restore as: 7l_toolset_post_guid_id
+0053.521 (R) [notice] Atomic restore: dropping original table (zg_toolset_post_guid_id)
+0053.524 (R) [notice] Atomic restore: renaming new table (7l_toolset_post_guid_id) to final table name (zg_toolset_post_guid_id)
+0053.708 (R) [notice] Search and replacing table: zg_toolset_post_guid_id: rows: 0
+0053.710 (R) [notice] Constraints found, will disable atomic restore for current table (zgn_wc_download_log)
+0053.713 (R) [notice] Processing table (InnoDB):  zgn_wc_download_log - will restore as: zg_wc_download_log
+0053.714 (R) [notice] Found and replaced existing table foreign key constraints as the table prefix has changed.
+0054.056 (R) [notice] Search and replacing table: zg_wc_download_log: rows: 0
+0054.061 (R) [notice] Processing table (InnoDB):  zgn_wc_webhooks - will restore as: 7l_wc_webhooks
+0054.293 (R) [notice] Atomic restore: dropping original table (zg_wc_webhooks)
+0054.294 (R) [notice] Atomic restore: renaming new table (7l_wc_webhooks) to final table name (zg_wc_webhooks)
+0054.428 (R) [notice] Search and replacing table: zg_wc_webhooks: rows: 0
+0054.429 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_api_keys - will restore as: 7l_woocommerce_api_keys
+0055.413 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_api_keys)
+0055.417 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_api_keys) to final table name (zg_woocommerce_api_keys)
+0055.659 (R) [notice] Search and replacing table: zg_woocommerce_api_keys: rows: 0
+0055.660 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_attribute_taxonomies - will restore as: 7l_woocommerce_attribute_taxonomies
+0055.912 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_attribute_taxonomies)
+0055.916 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_attribute_taxonomies) to final table name (zg_woocommerce_attribute_taxonomies)
+0056.116 (R) [notice] Search and replacing table: zg_woocommerce_attribute_taxonomies: rows: 5
+0056.119 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_downloadable_product_permissions - will restore as: 7l_woocommerce_downloadable_product_permissions
+0056.329 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_downloadable_product_permissions)
+0056.330 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_downloadable_product_permissions) to final table name (zg_woocommerce_downloadable_product_permissions)
+0057.209 (R) [notice] Search and replacing table: zg_woocommerce_downloadable_product_permissions: rows: 0
+0057.210 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_log - will restore as: 7l_woocommerce_log
+0057.805 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_log)
+0057.806 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_log) to final table name (zg_woocommerce_log)
+0058.795 (R) [notice] Search and replacing table: zg_woocommerce_log: rows: 0
+0058.796 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_order_items - will restore as: 7l_woocommerce_order_items
+0059.097 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_order_items)
+0059.099 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_order_items) to final table name (zg_woocommerce_order_items)
+0059.257 (R) [notice] Skipping this table: data in this table (zg_woocommerce_order_items) should not be search/replaced
+0059.258 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_payment_tokens - will restore as: 7l_woocommerce_payment_tokens
+0059.472 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_payment_tokens)
+0059.474 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_payment_tokens) to final table name (zg_woocommerce_payment_tokens)
+0059.649 (R) [notice] Search and replacing table: zg_woocommerce_payment_tokens: rows: 0
+0059.650 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_sessions - will restore as: 7l_woocommerce_sessions
+0061.485 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_sessions)
+0061.487 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_sessions) to final table name (zg_woocommerce_sessions)
+0061.885 (R) [notice] Skipping this table: data in this table (zg_woocommerce_sessions) should not be search/replaced
+0061.886 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_shipping_zone_locations - will restore as: 7l_woocommerce_shipping_zone_locations
+0062.455 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_shipping_zone_locations)
+0062.458 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_shipping_zone_locations) to final table name (zg_woocommerce_shipping_zone_locations)
+0062.685 (R) [notice] Search and replacing table: zg_woocommerce_shipping_zone_locations: rows: 0
+0062.686 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_shipping_zone_methods - will restore as: 7l_woocommerce_shipping_zone_methods
+0062.983 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_shipping_zone_methods)
+0062.985 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_shipping_zone_methods) to final table name (zg_woocommerce_shipping_zone_methods)
+0063.103 (R) [notice] Search and replacing table: zg_woocommerce_shipping_zone_methods: rows: 0
+0063.104 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_shipping_zones - will restore as: 7l_woocommerce_shipping_zones
+0063.318 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_shipping_zones)
+0063.319 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_shipping_zones) to final table name (zg_woocommerce_shipping_zones)
+0063.457 (R) [notice] Search and replacing table: zg_woocommerce_shipping_zones: rows: 0
+0063.458 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_tax_rate_locations - will restore as: 7l_woocommerce_tax_rate_locations
+0064.753 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_tax_rate_locations)
+0064.759 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_tax_rate_locations) to final table name (zg_woocommerce_tax_rate_locations)
+0065.096 (R) [notice] Search and replacing table: zg_woocommerce_tax_rate_locations: rows: 0
+0065.097 (R) [notice] Processing table (InnoDB):  zgn_woocommerce_tax_rates - will restore as: 7l_woocommerce_tax_rates
+0065.491 (R) [notice] Atomic restore: dropping original table (zg_woocommerce_tax_rates)
+0065.492 (R) [notice] Atomic restore: renaming new table (7l_woocommerce_tax_rates) to final table name (zg_woocommerce_tax_rates)
+0065.690 (R) [notice] Search and replacing table: zg_woocommerce_tax_rates: rows: 0
+0065.692 (R) [notice] Processing table (MyISAM):  zgn_woof_query_cache - will restore as: 7l_woof_query_cache
+0068.018 (R) [notice] Menonaktifkan moda perawatan&#8230;
+0068.019 (R) [notice] Atomic restore: dropping original table (zg_woof_query_cache)
+0068.020 (R) [notice] Atomic restore: renaming new table (7l_woof_query_cache) to final table name (zg_woof_query_cache)
+0068.031 (R) [notice] Search and replacing table: zg_woof_query_cache: rows: 0
+0068.031 (R) [notice] Finished: lines processed: 139 in 67.84 seconds
+0068.033 (R) [notice] Cleaning up rubbish...
+0068.358 (R) [notice] Database search and replace: replace https://zegenindonesia.id in backup dump with http://zegenindonesia.id
+0068.359 (R) [notice] Database search and replace: replace http://zegenindonesia.id in backup dump with http://zegenindonesia.id
+0068.391 (R) [notice] Search and replacing table: zg_aiowps_events: already done
+0068.392 (R) [notice] Search and replacing table: zg_aiowps_global_meta: already done
+0068.393 (R) [notice] Search and replacing table: zg_aiowps_login_lockdown: already done
+0068.394 (R) [notice] Search and replacing table: zg_aiowps_permanent_block: already done
+0068.395 (R) [notice] Search and replacing table: zg_commentmeta: already done
+0068.397 (R) [notice] Search and replacing table: zg_comments: already done
+0068.398 (R) [notice] Search and replacing table: zg_hmwp_blocked_ips: already done
+0068.399 (R) [notice] Search and replacing table: zg_hmwp_ms_intrusions: already done
+0068.400 (R) [notice] Search and replacing table: zg_jet_post_types: already done
+0068.400 (R) [notice] Search and replacing table: zg_jet_taxonomies: already done
+0068.401 (R) [notice] Search and replacing table: zg_links: already done
+0068.401 (R) [notice] Search and replacing table: zg_madx_post_types: already done
+0068.401 (R) [notice] Search and replacing table: zg_madx_taxonomies: already done
+0068.402 (R) [notice] Search and replacing table: zg_options: already done
+0068.402 (R) [notice] Search and replacing table: zg_podsrel: already done
+0068.402 (R) [notice] Search and replacing table: zg_postmeta: already done
+0068.403 (R) [notice] Search and replacing table: zg_posts: already done
+0068.403 (R) [notice] Search and replacing table: zg_taxonomyfield: already done
+0068.403 (R) [notice] Search and replacing table: zg_taxonomymeta: already done
+0068.404 (R) [notice] Search and replacing table: zg_term_relationships: already done
+0068.404 (R) [notice] Search and replacing table: zg_term_taxonomy: already done
+0068.404 (R) [notice] Search and replacing table: zg_termmeta: already done
+0068.405 (R) [notice] Search and replacing table: zg_terms: already done
+0068.405 (R) [notice] Search and replacing table: zg_tm_taskmeta: already done
+0068.405 (R) [notice] Search and replacing table: zg_tm_tasks: already done
+0068.406 (R) [notice] Search and replacing table: zg_toolset_post_guid_id: already done
+0068.406 (R) [notice] Search and replacing table: zg_usermeta: already done
+0068.406 (R) [notice] Search and replacing table: zg_users: already done
+0068.407 (R) [notice] Search and replacing table: zg_wc_download_log: already done
+0068.407 (R) [notice] Search and replacing table: zg_wc_webhooks: already done
+0068.407 (R) [notice] Search and replacing table: zg_woocommerce_api_keys: already done
+0068.408 (R) [notice] Search and replacing table: zg_woocommerce_attribute_taxonomies: already done
+0068.408 (R) [notice] Search and replacing table: zg_woocommerce_downloadable_product_permissions: already done
+0068.408 (R) [notice] Search and replacing table: zg_woocommerce_log: already done
+0068.409 (R) [notice] Search and replacing table: zg_woocommerce_order_itemmeta: already done
+0068.409 (R) [notice] Search and replacing table: zg_woocommerce_order_items: already done
+0068.409 (R) [notice] Search and replacing table: zg_woocommerce_payment_tokenmeta: already done
+0068.410 (R) [notice] Search and replacing table: zg_woocommerce_payment_tokens: already done
+0068.410 (R) [notice] Search and replacing table: zg_woocommerce_sessions: already done
+0068.411 (R) [notice] Search and replacing table: zg_woocommerce_shipping_zone_locations: already done
+0068.411 (R) [notice] Search and replacing table: zg_woocommerce_shipping_zone_methods: already done
+0068.412 (R) [notice] Search and replacing table: zg_woocommerce_shipping_zones: already done
+0068.413 (R) [notice] Search and replacing table: zg_woocommerce_tax_rate_locations: already done
+0068.413 (R) [notice] Search and replacing table: zg_woocommerce_tax_rates: already done
+0068.414 (R) [notice] Search and replacing table: zg_woof_query_cache: already done
+0068.414 (R) [notice] Tables examined: 44
+0068.414 (R) [notice] Rows examined: 2707
+0068.415 (R) [notice] Changes made: 7
+0068.415 (R) [notice] SQL update commands run: 7
+0068.415 (R) [notice] Errors: 0
+0068.416 (R) [notice] Time taken (seconds): 4.465
+0068.510 (R) [notice] Unpacking backup... (backup_2020-07-02-1437_CV_Zegen_Utama_c5b683273dab-themes.zip, 1.2 MB)
+0069.340 (R) [notice] Unzip progress: 255 out of 255 files (2.9 MB, themes/madxflow/searchform.php)
+0069.355 (R) [notice] Moving old data out of the way...
+0069.471 (R) [notice] Moving unpacked backup into place...
+0069.526 (R) [notice] Cleaning up rubbish...
+0069.639 (R) [notice] Unpacking backup... (backup_2020-07-02-1437_CV_Zegen_Utama_c5b683273dab-uploads.zip, 109.7 MB)
+0072.623 (R) [notice] Unzip progress: 1002 out of 1486 files (98.9 MB, uploads/2019/02/windshield-stain-remover-90x90.jpg)
+0073.285 (R) [notice] Unzip progress: 1486 out of 1486 files (109.5 MB, uploads/wph/environment.php)
+0073.321 (R) [notice] Moving old data out of the way...
+0073.324 (R) [notice] Moving unpacked backup into place...
+0073.861 (R) [notice] Cleaning up rubbish...
+0073.936 (R) [notice] Unpacking backup... (backup_2020-07-02-1437_CV_Zegen_Utama_c5b683273dab-others.zip, 32.1 MB)
+0074.203 (R) [notice] Unzip progress: 14 out of 14 files (33.3 MB, wp-cache-config.php)
+0074.223 (R) [notice] advanced-cache.php: Skipping cache file (does not already exist)
+0074.236 (R) [notice] Cleaning up rubbish...
+0074.589 (R) [notice] Plugin path types/wpcf.php not found: de-activating.
+0075.030 (R) [notice] Restore successful!

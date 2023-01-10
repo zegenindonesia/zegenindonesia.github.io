@@ -1,0 +1,20 @@
+2020-01-25T23:33:18+00:00 CRITICAL Uncaught Error: Call to a member function log_debug() on null in C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php:593
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php(444): AIOWPSecurity_Database_Menu->alter_table_views('wp_', 'zgn_')
+#1 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php(195): AIOWPSecurity_Database_Menu->change_db_prefix('wp_', 'zgn_')
+#2 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php(74): AIOWPSecurity_Database_Menu->render_tab1()
+#3 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php(17): AIOWPSecurity_Database_Menu->render_menu_page()
+#4 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-admin-init.php(356): AIOWPSecurity_Database_Menu->__construct()
+#5 
+
+2020-01-25T23:52:59+00:00 CRITICAL Uncaught Error: Call to a member function log_debug() on null in C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php:593
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php(444): AIOWPSecurity_Database_Menu->alter_table_views('wp_', 'zgn_')
+#1 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php(195): AIOWPSecurity_Database_Menu->change_db_prefix('wp_', 'zgn_')
+#2 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php(74): AIOWPSecurity_Database_Menu->render_tab1()
+#3 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-database-menu.php(17): AIOWPSecurity_Database_Menu->render_menu_page()
+#4 C:\xampp\htdocs\wp-content\plugins\all-in-one-wp-security-and-firewall\admin\wp-security-admin-init.php(356): AIOWPSecurity_Database_Menu->__construct()
+#5 
+
+2020-01-26T01:04:13+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+

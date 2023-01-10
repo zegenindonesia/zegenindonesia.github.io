@@ -1,0 +1,13 @@
+0000.000 (1) Opened log file at time: Tue, 10 Jan 2023 06:06:40 +0000 on http://zegenindonesia.id
+0000.055 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.22 PHP: 7.3.33 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.22-MariaDB WPLANG: id_ID Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.3.33 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.4M | 22M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.113 (1) Free space on disk containing Updraft's temporary directory: 372731.5 MB
+0000.175 (1) Requesting backup semaphore lock (c5b683273dab)
+0000.432 (1) [Lock option (updraft_lock_c5b683273dab, zg_options) was created in the database] debug
+0000.733 (1) [Lock (updraft_lock_c5b683273dab, zg_options) acquired after initialising the database] info
+0000.800 (1) This backup task (c5b683273dab) is either complete or began over 2 days ago: ending (1673330800.0661, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Tue, 10 Jan 2023 06:07:56 +0000 on http://zegenindonesia.id
+0000.016 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.22 PHP: 7.3.33 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.22-MariaDB WPLANG: id_ID Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.3.33 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.1M | 6M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.044 (1) Free space on disk containing Updraft's temporary directory: 372731.5 MB
+0000.074 (1) Requesting backup semaphore lock (c5b683273dab)
+0000.108 (1) [Lock (updraft_lock_c5b683273dab, zg_options) acquired] info
+0000.126 (1) This backup task (c5b683273dab) is either complete or began over 2 days ago: ending (1673330876.7403, ) (existing jobdata keys: )
