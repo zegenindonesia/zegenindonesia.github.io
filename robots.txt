@@ -3,4 +3,4 @@ Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
 
-Sitemap: https://zegenindonesia.id/sitemap.xml
+Sitemap: https://www.zegenindonesia.id/sitemap.xml
